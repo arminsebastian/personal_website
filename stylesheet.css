@@ -1,0 +1,88 @@
+		header {
+			text-align: center;
+			background: url("BBNY.jpg");
+			background-size: cover;
+			margin: 0px 0px 0px 0px;
+			border: 0px;
+		}
+
+		title {
+			color: red
+		}
+		
+		.project {
+			text-align: center;
+		}
+
+		img {
+			margin: 20px 0px 0px 0px;
+			border: 5px solid white;
+			border-radius: 8px;
+		}
+		
+		IMG.project {
+   		display: block;
+    	margin-left: auto;
+    	margin-right: auto
+    	}
+
+		a {
+			color:white;
+		}
+		a.project {
+			color: black;
+		}
+		ul {
+			background-color: rgba(0,0,0,0.5);
+			padding: 10px;
+		}
+		li {
+			display: inline;
+			color: white;
+			padding: 0px 20px 0px 20px;
+			font-size: 30px;
+		}
+		h1 {
+			font-size: 50px;
+			color: white;
+			text-align: center;
+		}
+		h1.project {
+			color: black;
+		}
+		h2 {
+			font-size: 29px;
+			margin: 0px 0px 0px 0px;
+			padding: 0px 0px 0px 0px;
+
+		}
+
+		.quoted-text {
+			font-style: italic;
+		}
+
+		h3 {
+			text-align: left;
+			font-size: 27px;
+			color: black;
+			font-style: italic;
+	
+		}
+		p {
+			margin: 0, Auto;
+			padding-top: 0;
+			font-size: 31px;
+			margin-top: 2px;
+			margin-left: 20px;
+			margin-bottom: 2px;
+		}
+
+		@media (max-width: 500px) {
+		h1 {
+			font-size: 26px;
+			padding: 5px;
+		}
+		li {
+			padding: 5px;
+			display: block;
+		}
