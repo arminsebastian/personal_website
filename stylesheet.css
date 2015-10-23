@@ -1,6 +1,6 @@
 		header {
 			text-align: center;
-			background: url("BBNY.jpg");
+			background: url("BBNY-Opt.jpg");
 			background-size: cover;
 			margin: 0px 0px 0px 0px;
 			border: 0px;
@@ -9,29 +9,29 @@
 		title {
 			color: red
 		}
-		
-		.project {
+
+/*		.project {
 			text-align: center;
 		}
-
+*/
 		img {
 			margin: 20px 0px 0px 0px;
 			border: 5px solid white;
 			border-radius: 8px;
 		}
-		
-		IMG.project {
+
+/*		IMG.project {
    		display: block;
     	margin-left: auto;
     	margin-right: auto
     	}
-
+*/
 		a {
 			color:white;
 		}
-		a.project {
+/*		a.project {
 			color: black;
-		}
+		}*/
 		ul {
 			background-color: rgba(0,0,0,0.5);
 			padding: 10px;
@@ -47,9 +47,9 @@
 			color: white;
 			text-align: center;
 		}
-		h1.project {
+/*		h1.project {
 			color: black;
-		}
+		}*/
 		h2 {
 			font-size: 29px;
 			margin: 0px 0px 0px 0px;
@@ -57,16 +57,16 @@
 
 		}
 
-		.quoted-text {
+/*		.quoted-text {
 			font-style: italic;
-		}
+		}*/
 
 		h3 {
 			text-align: left;
 			font-size: 27px;
 			color: black;
 			font-style: italic;
-	
+
 		}
 		p {
 			margin: 0, Auto;
@@ -85,4 +85,8 @@
 		li {
 			padding: 5px;
 			display: block;
+		}
+
+		a.index {
+			color:white;
 		}
